@@ -22,7 +22,9 @@ module.exports = function (grunt) {
             options: {
                 port: 8080,
                 // change this to '0.0.0.0' to access the server from outside
-                hostname: 'localhost'
+                // Setting hostname: 'localhost' limits files to specific system
+                //where as hostname: '*' opens up the app to the network
+                hostname: '*'
             },
             livereload: {
                 options: {
