@@ -1,0 +1,19 @@
+{
+  "name": "ProjectShell",
+  "version": "1.0.0",
+  "description": "Grunt-Bower boilerplate for apps",
+  "main": "index.html",
+  "keywords": [
+    "boilerplate"
+  ],
+  "dependencies": {
+
+  },
+  "authors": [
+    "K97"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules"
+  ]
+}
